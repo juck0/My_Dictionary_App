@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/ic_refresh.xml" value="0.15902777777777777" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/ic_refresh1.xml" value="0.15902777777777777" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/shape_circle.xml" value="0.15902777777777777" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/layout/activity_main.xml" value="0.14" />
       </map>
     </option>
   </component>
