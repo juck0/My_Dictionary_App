@@ -2,6 +2,7 @@ package com.theChance2.mydictionaryapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.ArrayAdapter
 import androidx.lifecycle.lifecycleScope
 import com.theChance2.mydictionaryapp.databinding.ActivityMainBinding
@@ -22,14 +23,17 @@ class MainActivity : AppCompatActivity() {
 //            Network.makeRequestUsingOkhttp()
 //        }
 
-         val languages = resources.getStringArray(R.array.source_lang)
 
-        val arrayAdapter = ArrayAdapter(this, R.layout.item_source, languages)
-        binding.autoCompleteTextView.setAdapter(arrayAdapter)
 
     }
 
     private fun playWithFlow() {
+        val languages = resources.getStringArray(R.array.source_lang)
+        val arrayAdapterSourceLang = ArrayAdapter(this, R.layout.item_source, languages)
+        binding.autoCompleteTextView.setAdapter(arrayAdapterSourceLang)
+        val arrayAdapterTargetLang = ArrayAdapter(this, R.layout.item_source, languages)
+
+        binding.autoCompleteTextView2.setAdapter(arrayAdapterTargetLang)
         val flow = flow {
             emit(UrlModifier.getUrl("hello bitch","en","fr"))
         }.flowOn(Dispatchers.IO)
@@ -37,6 +41,7 @@ class MainActivity : AppCompatActivity() {
             flow.buffer().collect {
                 delay(2000)
                 binding.translate.text = Network.result
+                Log.i("Aymn" , "$languages")
             }
         } }
     }

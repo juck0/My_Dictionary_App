@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.18046875" />
         <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/ic_refresh.xml" value="0.15902777777777777" />
         <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/ic_refresh1.xml" value="0.15902777777777777" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/shap_drop_down.xml" value="0.15902777777777777" />
         <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/shape_circle.xml" value="0.15902777777777777" />
-        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/shape_edittext.xml" value="0.15902777777777777" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/shapr_show.xml" value="0.18046875" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/layout/item_source.xml" value="0.168359375" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.18046875" />
       </map>
     </option>
   </component>
@@ -16,12 +22,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.18" />
-      </ProjectState>
-    </option>
   </component>
 </project>
