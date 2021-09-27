@@ -2,6 +2,7 @@ package com.theChance2.mydictionaryapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import androidx.lifecycle.lifecycleScope
 import com.theChance2.mydictionaryapp.databinding.ActivityMainBinding
 import kotlinx.coroutines.Dispatchers
@@ -16,12 +17,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+           playWithFlow()
+//        runOnUiThread{
+//            Network.makeRequestUsingOkhttp()
+//        }
 
-        runOnUiThread{
-            Network.makeRequestUsingOkhttp()
-        }
-        playWithFlow()
+         val languages = resources.getStringArray(R.array.source_lang)
+
+        val arrayAdapter = ArrayAdapter(this, R.layout.item_source, languages)
+        binding.autoCompleteTextView.setAdapter(arrayAdapter)
+
     }
+
     private fun playWithFlow() {
         val flow = flow {
             emit(UrlModifier.getUrl("hello bitch","en","fr"))

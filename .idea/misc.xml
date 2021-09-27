@@ -6,7 +6,8 @@
         <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/ic_refresh.xml" value="0.15902777777777777" />
         <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/ic_refresh1.xml" value="0.15902777777777777" />
         <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/drawable/shape_circle.xml" value="0.15902777777777777" />
-        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/AndroidStuioProjects/MyDictionaryApp/app/src/main/res/layout/item_source.xml" value="0.168359375" />
       </map>
     </option>
   </component>
@@ -15,5 +16,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
   </component>
 </project>
