@@ -12,14 +12,14 @@ object Network {
     private val client = OkHttpClient()
     private val gson = Gson()
     private val builder = FormBody.Builder()
-    fun makeRequestUsingOkhttp(): State<Questions> {
+    fun makeRequestUsingOkhttp(): State<Translation> {
         val request = Request.Builder()
-            .url(UrlModifier.url)
+            .url(Data.url)
             .post(builder.build())
             .build()
         val response = client.newCall(request).execute()
         return if (response.isSuccessful){
-            val responseQuiz = gson.fromJson(response.body?.string(), Questions::class.java)
+            val responseQuiz = gson.fromJson(response.body?.string(), Translation::class.java)
             Log.i("responseQuiz", responseQuiz.toString())
              result = responseQuiz.translatedText.toString()
             State.Success(responseQuiz)

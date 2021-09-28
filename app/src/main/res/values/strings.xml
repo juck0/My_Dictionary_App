@@ -1,23 +1,23 @@
 <resources>
     <string name="app_name">My Dictionary App</string>
     <string-array name="source_lang">
-        <item>English</item>
-        <item>Arabic</item>
-        <item>French</item>
-        <item>Spanish</item>
-        <item>Chinese</item>
-        <item>German</item>
-        <item>Hindi</item>
-        <item>Indonesian</item>
-        <item>Irish</item>
-        <item>Italian</item>
-        <item>Japanese</item>
-        <item>Korean</item>
-        <item>Polish</item>
-        <item>Portuguese</item>
-        <item>Russian</item>
-        <item>Turkish</item>
-        <item>Vietnamese</item>
+        <item>English &#127482;&#127480;</item>
+        <item>Arabic &#127480;&#127462;</item>
+        <item>French &#127467;&#127479;</item>
+        <item>Spanish &#127466;&#127480;</item>
+        <item>Chinese &#127464;&#127475;</item>
+        <item>German &#127465;&#127466;</item>
+        <item>Hindi &#127470;&#127475;</item>
+        <item>Indonesian &#127470;&#127465;</item>
+        <item>Irish &#127470;&#127466;</item>
+        <item>Italian &#127470;&#127481;</item>
+        <item>Japanese &#127471;&#127477;</item>
+        <item>Korean &#127472;&#127479;</item>
+        <item>Polish &#127477;&#127473;</item>
+        <item>Portuguese &#127477;&#127481;</item>
+        <item>Russian &#127479;&#127482;</item>
+        <item>Turkish &#127481;&#127479;</item>
+        <item>Vietnamese &#127483;&#127475;</item>
 
 
 

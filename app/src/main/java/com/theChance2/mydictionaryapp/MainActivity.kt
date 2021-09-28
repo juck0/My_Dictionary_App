@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.autoCompleteTextView2.setAdapter(arrayAdapterTargetLang)
         val flow = flow {
-            emit(UrlModifier.getUrl("hello bitch","en","fr"))
+            emit(Data.getUrl("hello ","en","fr"))
         }.flowOn(Dispatchers.IO)
         binding.clickMe.setOnClickListener { lifecycleScope.launch {
             flow.buffer().collect {
